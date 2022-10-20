@@ -1,0 +1,486 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Manrope', sans-serif;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/* ==================================
+            menu__start
+==================================== */
+
+nav{
+    position: sticky !important;
+    top: 0 !important;
+    background-color: #3E82FC;
+    z-index: 1;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: white !important;
+    margin-left: 28px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.nav-item{
+    position: relative;
+}
+
+.dropdown{
+    width: 180px;
+    background-color: #3E82FC;
+    position: absolute;
+    left: 0;
+    top: 30px;
+    padding: 15px;
+    border-radius: 5px;
+    transform: rotateX(90deg);
+    transition: .4s all ease-in-out;
+}
+  
+.dropdown ul li{
+    margin-bottom: 20px !important;
+    transition: .4s all ease-in-out;
+}
+  
+.dropdown ul li a{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+  
+.dropdown ul li:hover{
+    transform: translateX(5px) !important;
+}
+  
+.nav-item:hover .dropdown{
+    transform: rotateX(0deg);
+}
+
+.menu__btn a{
+    margin: 0;
+    padding: 0;
+    background-color: #4F46BA;
+    padding: 10px 25px;
+    color: white !important;
+    font-size: 15px;
+    transition: .4s all ease-in-out;
+}
+
+.menu__btn a:hover{
+    background: transparent;
+    border: 1px solid white;
+    color: white !important;
+}
+
+.menu__btn a:focus{
+   outline: none;
+   box-shadow: none;
+}
+
+/* ==================================
+            menu__end
+==================================== */
+
+/* ==================================
+            banner__start
+==================================== */
+
+.banner__content{
+    margin-top: 50px;
+}
+
+.banner__heading{
+    width: 522px;
+    font-size: 66px;
+    margin-top: 18px;
+}
+
+.banner__content .sub__heading{
+    font-size: 18px;
+}
+
+.banner__btn{
+    transition: .4s all ease-in-out;
+    display: inline-block;
+}
+
+.banner__btn a{
+    margin: 0;
+    padding: 0;
+    background-color: #4F46BA;
+    padding: 10px 25px;
+    color: white !important;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.banner__btn:hover, .follower__btn:hover{
+    transform: translateX(7px);
+}
+
+.banner__btn a:focus{
+   outline: none;
+   box-shadow: none;
+}
+
+.people__content{
+    margin-top: 40px;
+}
+
+.people_text{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* ==================================
+            banner__end
+==================================== */
+
+/* ====================================
+            logo start
+====================================== */
+
+.logo__heading{
+    margin: 50px 0px;
+}
+
+/* ====================================
+            logo end
+====================================== */
+
+/* ====================================
+            social start
+====================================== */
+
+.social__section{
+    margin-top: 100px;
+    position: relative;
+}
+
+.social__heading{
+    padding-top: 150px;
+    width: 632px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.social__position1{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.social__position2{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.social__content{
+    padding: 50px 0px;
+}
+
+.social__sub__heading{
+    padding: 15px 0px;
+    font-size: 22px;
+}
+
+.social__sub__heading2{
+    font-size: 16px;
+}
+
+/* ====================================
+            social end
+====================================== */
+
+/* ====================================
+            follower start
+====================================== */
+
+.follower__section{
+   margin-top: 80px;
+}
+
+.follower__heading{
+    width: 555px;
+    font-size: 55px;
+    font-weight: 800;
+}
+
+.follower__sub__heading{
+    padding: 15px 0px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.follower__btn{
+    transition: .4s all ease-in-out;
+}
+
+.follower__btn a{
+    margin: 0;
+    padding: 0;
+    background-color: #4F46BA;
+    padding: 10px 20px;
+    color: white !important;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.follower__btn a:focus{
+   outline: none;
+   box-shadow: none;
+}
+
+/* ====================================
+            follower end
+====================================== */
+
+/* ====================================
+            happy start
+====================================== */
+
+.happy__section{
+    margin-bottom: 150px;
+}
+
+.testomonial{
+    color: #4F46BA;
+    font-size: 16px;
+}
+
+.testomonial__heading{
+    padding-top: 20px;
+    width: 533px;
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.client__box{
+    margin-top: 100px;
+    padding: 20px;
+    position: relative;
+}
+
+.client__div{
+    width: 50px;
+    height: 50px;
+    background-color: #4F46BA;
+    border-radius: 50%;
+    position: absolute;
+    top: -25px;
+    left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client__div i{
+    color: white;
+    font-size: 20px;
+}
+
+.client__review{
+    margin-top: 30px;
+    margin-bottom: 25px;
+    color: orange;
+}
+
+.client__sub__heading{
+    font-size: 16px;
+    color: grey;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(233, 232, 232);
+}
+
+.client__img{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.client__img img{
+    width: 100%;
+    height: 100%;
+}
+
+.client__detailes__heading{
+    margin: 0;
+    padding: 0;
+}
+
+.client__detailes__sub__heading{
+    margin: 0;
+    padding: 0;
+}
+
+/* ====================================
+            happy end
+====================================== */
+
+/* ====================================
+            question start
+====================================== */
+
+.question__heading{
+    width: 484px;
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.question__sub__heading{
+    padding: 40px 0px;
+    width: 475px;
+    font-size: 16px;
+}
+
+/* ====================================
+            question end
+====================================== */
+
+/* ====================================
+            form start
+====================================== */
+
+.form__section, .form__content{
+    background-image: url("../img/form.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.form__section{
+    padding: 130px 0px;
+}
+
+.form__sub__heading{
+    color: white;
+}
+
+.form__heading{
+    width: 305px;
+    font-size: 30px;
+    color: white;
+}
+
+.form__content{
+    border-radius: 10px;
+    padding: 55px;
+    background-image: url("../img/form__bg.png");
+}
+
+.form__content form input[type="text"]{
+    margin: 0;
+    padding: 0;
+    padding: 8px 0px;
+    border-radius: 0px;
+    border: 1px solid #3E82FC;
+}
+
+.form__content form input[type="text"]{
+  padding-left: 30px;
+}
+
+.form__content form input::placeholder{
+    padding-left: 30px;
+}
+
+.form__content form input:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.form__content form input[type="submit"]{
+    margin: 0;
+    padding: 0;
+    padding: 8px 25px;
+    border: none;
+    color: white;
+    background-color: #FF7F5C;
+}
+
+/* ====================================
+            form end
+====================================== */
+
+/* ====================================
+            footer start
+====================================== */
+
+footer{
+    background-color: #1B1C31;
+}
+
+.footer__heading{
+    color: white;
+    width: 550px;
+    font-size: 53px;
+    font-weight: 500;
+    padding: 72px 0px;
+    line-height: 80px;
+    text-align: center;
+    margin: auto;
+}
+
+.footer__btn a{
+    margin: 0;
+    padding: 0;
+    background-color: #FF7F5C;
+    padding: 10px 20px;
+    color: white !important;
+    text-decoration: none;
+    font-size: 18px;
+    transition: .4s all ease-in-out;
+}
+
+.footer__btn a:focus{
+   outline: none;
+   box-shadow: none;
+}
+
+.footer__logo{
+    color: white;
+    font-size: 30px;
+}
+
+.footer__sub__heading{
+    width: 520px;
+    color: white;
+    font-size: 16px;
+}
+
+.footer__company{
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.footer__company ul{
+    margin: 0;
+    padding: 0;
+}
+
+.footer__company ul li{
+    list-style-type: none;
+    padding: 4px 0px;
+    color: white;
+}
+
+.footer__company ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/* ====================================
+            footer end
+====================================== */
